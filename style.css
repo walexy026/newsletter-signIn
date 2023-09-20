@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
 main {
   background-color: hsl(234, 29%, 20%);
   display: grid;
@@ -5,6 +12,19 @@ main {
 }
 .container {
   background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.firstDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 360px;
 }
 span {
   display: flex;
@@ -14,9 +34,22 @@ span {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+}
+input {
+  height: 40px;
 }
 button {
+  margin-top: 1rem;
   background-color: hsl(4, 100%, 67%);
+  /* padding: 1rem 1rem; */
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.illustrateImg {
+  width: 200px;
 }
