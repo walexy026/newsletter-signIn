@@ -1,0 +1,7 @@
+main {
+  background-color: hsl(234, 29%, 20%);
+}
+.container {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+}
