@@ -1,7 +1,22 @@
 main {
   background-color: hsl(234, 29%, 20%);
+  display: grid;
+  place-items: center;
 }
 .container {
-  display: flex;
   background-color: hsl(0, 0%, 100%);
+}
+span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: hsl(4, 100%, 67%);
 }
