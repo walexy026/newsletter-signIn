@@ -25,12 +25,15 @@ main {
     flex-direction: column-reverse;
     padding: 0 0 2rem 0;
   }
+  .firstDiv {
+    padding: 1rem;
+  }
 }
 .firstDiv {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 360px;
+  max-width: 360px;
 }
 .firstDiv h1 {
   margin-bottom: 1rem;
