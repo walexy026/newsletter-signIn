@@ -20,11 +20,23 @@ main {
   padding: 2rem;
   border-radius: 10px;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 0 0 2rem 0;
+  }
+}
 .firstDiv {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 360px;
+}
+.firstDiv h1 {
+  margin-bottom: 1rem;
+}
+.p1 {
+  margin-bottom: 1rem;
 }
 span {
   display: flex;
@@ -33,11 +45,17 @@ span {
   margin-bottom: 10px;
 }
 form {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
 }
+label {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
 input {
   height: 40px;
+  border-radius: 5px;
 }
 button {
   color: hsl(0, 0%, 100%);
@@ -50,6 +68,9 @@ button {
   cursor: pointer;
   border-radius: 5px;
 }
+button:hover {
+  background-color: hsl(235, 18%, 26%);
+}
 .illustrateImg {
-  width: 200px;
+  width: 100%;
 }
