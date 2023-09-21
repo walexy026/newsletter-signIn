@@ -60,20 +60,59 @@ input {
   height: 40px;
   border-radius: 5px;
 }
-button {
+.btn-submit {
   color: hsl(0, 0%, 100%);
   margin-top: 1rem;
   font-size: 16px;
   background-color: hsl(4, 100%, 67%);
+  box-shadow: hsl(4, 100%, 67%) 0px 7px 19px 0px;
   /* padding: 1rem 1rem; */
   height: 40px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
 }
-button:hover {
+.btn-submit:hover {
   background-color: hsl(235, 18%, 26%);
+  box-shadow: hsl(235, 18%, 26%) 0px 7px 10px 0px;
 }
 .illustrateImg {
   width: 100%;
+}
+.success {
+  display: grid;
+  place-items: center;
+  background-color: hsl(235, 18%, 26%);
+}
+aside {
+  max-width: 300px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+aside h1 {
+  font-weight: 900;
+  font-size: xx-large;
+  margin-top: 1rem;
+}
+aside p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+.btn-success {
+  height: 50px;
+  background-color: hsl(4, 100%, 67%);
+  box-shadow: hsl(4, 100%, 67%) 0px 7px 19px 0px;
+  color: hsl(0, 0%, 100%);
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+}
+.btn-success:hover {
+  background-color: hsl(235, 18%, 26%);
+  box-shadow: hsl(235, 18%, 26%) 0px 7px 10px 0px;
+  cursor: pointer;
 }
